@@ -1,0 +1,9 @@
+#Using Compose is a three-step process:
+#Define your app’s environment with a Dockerfile
+#Define the services that make up your app in docker-compose.yml so they can be run together
+#Run docker-compose up and Compose starts and runs your entire app.
+
+version: "3.7"
+services:
+  slackbotapp:
+    build: . #The slackbotapp service uses an image that’s built from the Dockerfile in the current directory
