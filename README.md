@@ -1,7 +1,8 @@
-#Slack SNIPE-IT Bot
+##Slack SNIPE-IT Bot
+
 ## Slack bot that allows users to query data from IT asset inventory system
 
-```
+
 ## Overview:
 This Slack bot uses v2 of the Python slackclient to interface with the Slack RTM API to respond to user messages about IT assets, right in Slack! Useful for quickly querying the state of IT assets while on the go. Comprehensive documentation on using the Slack Python can be found at https://slack.dev/python-slackclient/
 
